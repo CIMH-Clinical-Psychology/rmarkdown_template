@@ -50,7 +50,7 @@ wordcount         : "X"
 
 bibliography      : ["bib_file.bib"]
 
-floatsintext      : no
+floatsintext      : yes
 figurelist        : no
 tablelist         : no
 footnotelist      : no
@@ -66,13 +66,20 @@ output            : papaja::apa6_pdf
 ```{r setup, include = FALSE}
 # This whole document is only here to initialise everything. It contains the settings
 # for the manuscript, but nothing else.
-library("papaja")
+
+library("papaja") # for generating the APA manuscript
+library(tidyverse) # for data analysis
+library(prmisc) # for printing statistical results
+library(effsize) # for calculating effect sizes
+
+source("example_analysis.R") # run analysis script
 ```
 
 ```{r analysis-preferences}
 # Seed for random number generation
 set.seed(42)
-knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed,
+                      fig.pos = "center")
 ```
 
 
