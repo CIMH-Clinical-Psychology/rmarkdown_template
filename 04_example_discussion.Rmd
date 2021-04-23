@@ -9,8 +9,6 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 Maecenas porttitor congue massa.
 Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
 Nunc viverra imperdiet enim.
-Hier ist ein neuer Satz.
-Yeah.
 Fusce est.
 Vivamus a tellus.
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -31,7 +29,7 @@ Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacin
 
 Donec ut est in lectus consequat consequat.
 Etiam eget dui.
-Sed at lorem in nunc porta tristique.
+Sed at lorem in nunc tristique.
 Proin nec augue.
 Quisque aliquam tempor magna.
 Pellentesque habitant morbi senectus et netus et malesuada fames ac turpis egestas.
