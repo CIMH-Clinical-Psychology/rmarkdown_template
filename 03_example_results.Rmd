@@ -7,7 +7,7 @@
 
 In the result section, I can talk about my data.
 For example, I can report the mean sepal length of the flowers in my iris data, `r print_mean_sd(iris$Sepal.Length)`.
-I can also report the results of a t-test where I test for differences in sepal length between the species *setosa* and *versicolor* `r print_ttest(t_test_iris, effsize_iris)`.
+I can also report the results of a t-test where I test for differences in sepal length between the species *setosa* and *versicolor* `r print_ttest(t_test_iris)`, $d =$ `r round(effsize_iris$Cohens_d, 2)`.
 Furthermore, you can find a scatter plot in Fig. 1.
 
 ```{r fig.cap = "This is a plot of sepal length against sepal width by species."}

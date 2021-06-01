@@ -70,7 +70,7 @@ output            : papaja::apa6_pdf
 library("papaja") # for generating the APA manuscript
 library(tidyverse) # for data analysis
 library(prmisc) # for printing statistical results
-library(effsize) # for calculating effect sizes
+library(effectsize) # for calculating effect sizes
 
 source("example_analysis.R") # run analysis script
 ```

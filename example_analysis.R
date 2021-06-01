@@ -18,6 +18,6 @@ t_test_iris <-
          iris$Sepal.Length[iris$Species == "versicolor"])
 
 effsize_iris <- 
-  cohen.d(iris$Sepal.Length[iris$Species == "setosa"],
+  cohens_d(iris$Sepal.Length[iris$Species == "setosa"],
           iris$Sepal.Length[iris$Species == "versicolor"])
 
